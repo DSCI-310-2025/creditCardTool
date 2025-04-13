@@ -17,5 +17,6 @@ This function takes a data frame that contains the column \code{default_payment_
 and produces a bar plot showing the distribution of default status.
 }
 \examples{
-make_target_plot(df)  # df must include the column `default_payment_next_month`
+df <- data.frame(default_payment_next_month = c(0, 1, 1, 0))
+make_target_plot(df)
 }

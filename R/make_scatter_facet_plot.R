@@ -11,6 +11,11 @@
 #' @export
 #'
 #' @examples
+#' df <- data.frame(
+#'   LIMIT_BAL = c(10000, 20000, 30000),
+#'   AGE = c(23, 45, 36),
+#'   default_payment_next_month = c(0, 1, 0)
+#' )
 #' make_scatter_facet_plot(df, c("LIMIT_BAL", "AGE"))
 make_scatter_facet_plot <- function(df, features) {
   missing <- setdiff(features, colnames(df))

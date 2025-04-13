@@ -9,7 +9,8 @@
 #' @export
 #'
 #' @examples
-#' make_target_plot(df)  # df must include the column `default_payment_next_month`
+#' df <- data.frame(default_payment_next_month = c(0, 1, 1, 0))
+#' make_target_plot(df)
 make_target_plot <- function(df) {
   if (!"default_payment_next_month" %in% colnames(df)) {
     stop("Column 'default_payment_next_month' not found in the dataframe.")

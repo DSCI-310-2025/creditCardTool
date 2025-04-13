@@ -1,13 +1,22 @@
 Package: creditCardTool
-Title: What the Package Does (One Line, Title Case)
+Type: Package
+Title: Helper Tools for Credit Card Default Prediction
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+   person(given = "Jellia", family = "Ma", email = "jelliama@student.ubc.ca", role = c("aut", "cre"))
+Description: Provides reusable functions for cleaning, transforming, splitting, and visualizing
+    credit card default prediction data. Designed to support a typical data science workflow.
 License: MIT + file LICENSE
 Encoding: UTF-8
+LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
+Imports:
+    dplyr,
+    tidyr,
+    ggplot2,
+    janitor,
+    tibble
 Suggests: 
     knitr,
     rmarkdown,
@@ -15,3 +24,5 @@ Suggests:
 Config/testthat/edition: 3
 VignetteBuilder: knitr
 URL: https://dsci-310-2025.github.io/creditCardTool/
+
+

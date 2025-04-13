@@ -20,5 +20,10 @@ and produces a faceted scatter plot showing the relationship between each featur
 and the binary \code{default_payment_next_month} status.
 }
 \examples{
+df <- data.frame(
+  LIMIT_BAL = c(10000, 20000, 30000),
+  AGE = c(23, 45, 36),
+  default_payment_next_month = c(0, 1, 0)
+)
 make_scatter_facet_plot(df, c("LIMIT_BAL", "AGE"))
 }
