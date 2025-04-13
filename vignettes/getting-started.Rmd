@@ -1,0 +1,46 @@
+---
+title: "getting-started"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{getting-started}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(creditCardTool)
+```
+
+## Overview
+
+The `creditCardTool` package includes useful helper functions for working with credit card default prediction data. This vignette walks through a typical workflow.
+
+## Simulate a Small Example Dataset
+
+```{r}
+df <- data.frame(
+  bill_amt1 = c(100, 200),
+  bill_amt2 = c(300, 400),
+  pay_amt1 = c(10, 20),
+  pay_amt2 = c(30, 40),
+  default_payment_next_month = c(0, 1)
+)
+
+df <- clean_column_names(df)
+
+df <- compute_avg_amounts(df)
+
+split <- split_data(df, train_size = 0.8)
+
+make_target_plot(df)
+```
+
+
+
