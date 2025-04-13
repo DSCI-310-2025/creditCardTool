@@ -1,2 +1,11 @@
 ^creditCardTool\.Rproj$
 ^\.Rproj\.user$
+^\.github$
+^README\.Rmd$
+^doc$
+^Meta$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^LICENSE\.md$
+^CODE_OF_CONDUCT\.md$
