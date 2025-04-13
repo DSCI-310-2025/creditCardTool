@@ -15,7 +15,9 @@ Imports:
     ggplot2,
     janitor,
     tidyr,
-    tidyselect
+    tidyselect,
+    class,
+    caret
 Suggests: 
     knitr,
     rmarkdown,
