@@ -3,7 +3,7 @@ pkgdown: 2.1.1
 pkgdown_sha: ~
 articles:
   getting-started: getting-started.html
-last_built: 2025-04-14T05:33Z
+last_built: 2025-04-14T07:27Z
 urls:
   reference: https://dsci-310-2025.github.io/creditCardTool/reference
   article: https://dsci-310-2025.github.io/creditCardTool/articles
