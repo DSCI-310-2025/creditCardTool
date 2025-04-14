@@ -6,6 +6,11 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/DSCI-310-2025/creditCardTool/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/DSCI-310-2025/creditCardTool/actions/workflows/R-CMD-check.yaml)
+[![pkgdown](https://github.com/DSCI-310-2025/creditCardTool/actions/workflows/pkgdown.yaml/badge.svg)](https://DSCI-310-2025.github.io/creditCardTool/)
+[![License:
+MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE.md)
+[![R](https://img.shields.io/badge/R-%3E=4.0.0-blue)](https://cran.r-project.org/)
+[![dev-version](https://img.shields.io/badge/dev%20version-0.0.0.9000-brightgreen)](https://github.com/DSCI-310-2025/creditCardTool)
 <!-- badges: end -->
 
 The `creditCardTool` package provides helper functions for analyzing
