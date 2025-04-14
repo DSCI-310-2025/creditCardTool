@@ -58,6 +58,32 @@
 <p>The <code>creditCardTool</code> package provides helper functions for analyzing credit card default data, including data cleaning, splitting, visualization, and summarization.</p>
 <p>It is designed to support modular, reusable components of a typical data science pipeline.</p>
 <div class="section level2">
+<h2 id="dependencies">Dependencies<a class="anchor" aria-label="anchor" href="#dependencies"></a>
+</h2>
+<p>This package depends on the following R packages:</p>
+<ul>
+<li>
+<a href="https://ggplot2.tidyverse.org/" class="external-link"><code>ggplot2</code></a>: for visualizations</li>
+<li>
+<a href="https://dplyr.tidyverse.org/" class="external-link"><code>dplyr</code></a>: for data manipulation</li>
+<li>
+<a href="https://tidyr.tidyverse.org/" class="external-link"><code>tidyr</code></a>: for reshaping data</li>
+<li>
+<a href="https://tibble.tidyverse.org/" class="external-link"><code>tibble</code></a>: for modern data frames</li>
+<li>
+<a href="https://github.com/sfirke/janitor" class="external-link"><code>janitor</code></a>: for cleaning column names</li>
+<li>
+<a href="https://topepo.github.io/caret/" class="external-link"><code>caret</code></a>: for confusion matrix and metrics</li>
+<li>
+<a href="https://stat.ethz.ch/R-manual/R-devel/library/class/html/00Index.html" class="external-link"><code>class</code></a>: for the KNN model</li>
+<li>
+<a href="https://stat.ethz.ch/R-manual/R-devel/library/utils/html/00Index.html" class="external-link"><code>utils</code></a>: for writing files</li>
+<li>
+<a href="https://testthat.r-lib.org/" class="external-link"><code>testthat</code></a>: for unit testing</li>
+</ul>
+<p>All dependencies are installed automatically when installing the package with <a href="https://pak.r-lib.org/" class="external-link"><code>pak</code></a>:</p>
+</div>
+<div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
 <p>You can install the development version of creditCardTool from <a href="https://github.com/" class="external-link">GitHub</a> with:</p>
@@ -90,6 +116,25 @@
 <code><a href="reference/clean_column_names.html">clean_column_names()</a></code> — Standardizes column names to snake_case</li>
 <li>
 <code><a href="reference/compute_avg_amounts.html">compute_avg_amounts()</a></code> — Computes average billing/payment values per row</li>
+</ul>
+</div>
+<div class="section level2">
+<h2 id="code-of-conduct">Code of Conduct<a class="anchor" aria-label="anchor" href="#code-of-conduct"></a>
+</h2>
+<p>Please note that the <a href="https://github.com/DSCI-310-2025/creditCardTool" class="external-link"><code>creditCardTool</code></a> project is released with a <a href="CODE_OF_CONDUCT.html">Code of Conduct</a>.<br>
+By contributing to this project, you agree to abide by its terms.</p>
+</div>
+<div class="section level2">
+<h2 id="licenses">Licenses<a class="anchor" aria-label="anchor" href="#licenses"></a>
+</h2>
+<p>This project is dual-licensed under the following:</p>
+<ul>
+<li><p><a href="https://creativecommons.org/licenses/by/4.0/" class="external-link">Creative Commons Attribution 4.0 International (CC BY 4.0)</a>:<br>
+For non-code assets (e.g., figures, documentation, text).<br>
+You may share and adapt the materials with appropriate credit.</p></li>
+<li><p><a href="LICENSE.html">MIT License</a>:<br>
+A permissive software license for all code assets (e.g., scripts, functions, analysis files).<br>
+You can use, modify, and distribute the code with attribution.</p></li>
 </ul>
 <hr>
 </div>
@@ -128,6 +173,10 @@
 <h2 data-toc-skip>Dev status</h2>
 <ul class="list-unstyled">
 <li><a href="https://github.com/DSCI-310-2025/creditCardTool/actions/workflows/R-CMD-check.yaml" class="external-link"><img src="https://github.com/DSCI-310-2025/creditCardTool/actions/workflows/R-CMD-check.yaml/badge.svg" alt="R-CMD-check"></a></li>
+<li><a href="https://DSCI-310-2025.github.io/creditCardTool/" class="external-link"><img src="https://github.com/DSCI-310-2025/creditCardTool/actions/workflows/pkgdown.yaml/badge.svg" alt="pkgdown"></a></li>
+<li><a href="LICENSE.html"><img src="https://img.shields.io/badge/license-MIT-yellow.svg" alt="License: MIT"></a></li>
+<li><a href="https://cran.r-project.org/" class="external-link"><img src="https://img.shields.io/badge/R-%3E=4.0.0-blue" alt="R"></a></li>
+<li><a href="https://github.com/DSCI-310-2025/creditCardTool" class="external-link"><img src="https://img.shields.io/badge/dev%20version-0.0.0.9000-brightgreen" alt="dev-version"></a></li>
 </ul>
 </div>
 
